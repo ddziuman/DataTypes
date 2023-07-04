@@ -23,3 +23,4 @@ const s = (
     'emptyObject is not null'
 );
 console.log(s);
+console.log(isNaN());

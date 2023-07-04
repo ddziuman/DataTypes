@@ -35,3 +35,18 @@
   console.log('currencies[1]:', currencies[1], 1 in currencies);
   console.log('currencies[2]:', currencies[2], 2 in currencies);
 }
+
+{
+  // testing let deleting
+  let a = 3;
+  delete a;
+
+  const b = 2;
+  delete b;
+
+
+
+  console.log({ a, b });
+  console.log('success?');
+
+}

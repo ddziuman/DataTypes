@@ -61,7 +61,7 @@ console.log(parseFloat('5.0'));
 console.log(parseFloat('5.0000000000000001'));
 
 console.log(parseFloat('5.1')); // 5.1
-console.log(parseFloat('5.000000000000001')); // 5.000000000000001
+console.log(parseFloat('5.000000000000001')); // 15 digits limit!
 
 console.log(parseFloat('100')); // 100
 console.log(parseFloat('-100')); // -100
