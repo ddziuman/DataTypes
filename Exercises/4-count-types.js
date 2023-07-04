@@ -13,6 +13,7 @@ const countTypesInArray = (array) => {
   for (const item of array) {
     const type = typeof item;
     counter[type] = type in counter ? ++counter[type] : 1;
+    // could also use 'const count = counter[type] || 0'
   }
   return counter;
 };
